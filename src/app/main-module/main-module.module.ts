@@ -11,6 +11,8 @@ import { ProductsComponent } from './main-components/products/products.component
 import { ViewProductComponent } from './main-components/view-product/view-product.component';
 import { CheckOutComponent } from './main-components/check-out/check-out.component';
 import { EditCartComponent } from './main-components/edit-cart/edit-cart.component';
+import { PurchaseSuccessFullComponent } from './main-components/purchase-success-full/purchase-success-full.component';
+import { PurchaseFailedComponent } from './main-components/purchase-failed/purchase-failed.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { EditCartComponent } from './main-components/edit-cart/edit-cart.compone
     ProductsComponent,
     ViewProductComponent,
     CheckOutComponent,
-    EditCartComponent
+    EditCartComponent,
+    PurchaseSuccessFullComponent,
+    PurchaseFailedComponent
   ],
   imports: [
     CommonModule,
