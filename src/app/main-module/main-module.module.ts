@@ -13,6 +13,8 @@ import { CheckOutComponent } from './main-components/check-out/check-out.compone
 import { EditCartComponent } from './main-components/edit-cart/edit-cart.component';
 import { PurchaseSuccessFullComponent } from './main-components/purchase-success-full/purchase-success-full.component';
 import { PurchaseFailedComponent } from './main-components/purchase-failed/purchase-failed.component';
+import { HomeComponent } from './main-components/home/home.component';
+import { BlogComponent } from './main-components/blog/blog.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { PurchaseFailedComponent } from './main-components/purchase-failed/purch
     CheckOutComponent,
     EditCartComponent,
     PurchaseSuccessFullComponent,
-    PurchaseFailedComponent
+    PurchaseFailedComponent,
+    HomeComponent,
+    BlogComponent
   ],
   imports: [
     CommonModule,

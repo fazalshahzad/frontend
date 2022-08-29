@@ -1,24 +1,21 @@
 #hero{
-  background-image: url("../../../../assets/img/banner/b1.jpg");
-  height: 40vh;
+  background-image: url("../../../../assets/img/hero4.png");
+  height: 60vh;
   width: 100%;
   background-size: cover;
   background-position: top 25% right 0;
   padding: 0 0px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 
 }
 #hero h2{
   padding-left: 30px;
-  color: white;
-  font-size: 50px;
 }
 #hero p{
   padding-left: 30px;
-  color: white;
 }
 
 #hero h4{
@@ -64,7 +61,7 @@ padding-left: 30px;
 }
 
 #feature .fe-box:hover{
-  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.2);
+  box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.2);
 }
 
 #feature .fe-box h4{
@@ -413,98 +410,5 @@ background-color: #041e42;
   white-space: nowrap;
 
 }
-
-
-
-/* pagination */
-
-
-#pagination{
-  text-align: center;
-}
-#pagination a{
-  text-decoration: none;
-  background-color: #088178;
-  padding: 15px 20px;
-  border-radius: 8px;
-  color: white;
-  font-weight: 600;
-  margin-left: 5px;
-}
-
-#pagination a i{
-  font-size: 16px;
-  font-weight: 600;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
