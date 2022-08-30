@@ -10,7 +10,7 @@ import { MainModuleComponent } from './main-module.component';
 const routes: Routes = [
   { path: '', component: MainModuleComponent,
 children:[
-  {path:'',component:ProductsComponent},
+  {path:'',component:HomeComponent},
   {path:'shop',component:ProductsComponent},
   {path:'about',component:AboutUsComponent},
   {path:'contact',component:ContactUsComponent},
