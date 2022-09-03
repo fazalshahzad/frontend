@@ -6,6 +6,7 @@ import { AdminModuleComponent } from './admin-module.component';
 import { D0ashboardComponent } from './admin-components/d0ashboard/d0ashboard.component';
 import { ProductsComponent } from './admin-components/products/products.component';
 import { HeaderComponent } from './admin-components/header/header.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,7 +18,9 @@ import { HeaderComponent } from './admin-components/header/header.component';
   ],
   imports: [
     CommonModule,
-    AdminModuleRoutingModule
+    AdminModuleRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class AdminModuleModule { }
